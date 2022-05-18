@@ -1,0 +1,255 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+    <meta charset="utf-8" />  
+    <title>My Slider</title>  
+    <link rel="stylesheet" type="text/css" href="practice.css">
+    
+</head>  
+<body>
+   <!--  NAVBAR -->
+   <div class="navbar">
+        <div class="navbarimage"></div>
+        <div id="navbar">
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">BLOG</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#footer">CONTACT</a></li>
+            <li><a href="#">LOGIN</a></li>
+        </div>
+        <div id="navsearchbar"><label>Search</label><input id="input" type="text" name="fname"> <div id="imagediv"><a href="#input"><img src="D:\FA4yogaproject\media\Search-Png-Image (3).png"></a></div></div>
+        <div id="navbar1">
+            <p id="navp1"><a href="#">FREE TUTORIALS FOR YOGA</a></p>
+            <P id="navp2"><a style="color: white;" href="#">WATCH VIDEO</a></P>
+            <p id="navp3"><a href="#">LEARN MORE</a></p>
+        </div>
+    </div>
+    <br><br>
+
+    <div style="display: flex;justify-content: space-between;">  
+    <div class="slidercontainer">  
+        <div class="showSlide fade">  
+            <img src="D:\FA4yogaproject\media\Tadasana.jpg" / >  
+            <div class="content">What is Yoga</div>  
+        </div>  
+        <div class="showSlide fade">  
+            <img src="D:\FA4yogaproject\media\trikonaasna.jpg" />  
+            <div class="content">Seat</div>  
+        </div>  
+  
+        <div class="showSlide fade">  
+            <img src="D:\FA4yogaproject\media\Meditation.jpg" / >  
+            <div class="content">Maditate</div>  
+        </div>  
+         
+        <!-- Navigation arrows -->  
+        <a class="left" onclick="nextSlide(-1)">❮</a>  
+        <a class="right" onclick="nextSlide(1)" style="right: %;">❯</a> 
+    </div>
+
+     <script type="text/javascript">  
+        var slide_index = 1;  
+        displaySlides(slide_index);  
+  
+        function nextSlide(n) {  
+            displaySlides(slide_index += n);  
+        }  
+  
+        function currentSlide(n) {  
+            displaySlides(slide_index = n);  
+        }  
+  
+        function displaySlides(n) {  
+            var i;  
+            var slides = document.getElementsByClassName("showSlide");  
+            if (n > slides.length) { slide_index = 1 }  
+            if (n < 1) { slide_index = slides.length }  
+            for (i = 0; i < slides.length; i++) {  
+                slides[i].style.display = "none";  
+            }  
+            slides[slide_index - 1].style.display = "block";  
+        }  
+    </script> 
+
+
+
+    <div style="width: 390px;height: 495px;margin: 0 auto;">
+        <div class="aside" >
+       <div class="know_more">
+       <h1>KNOW MORE . . .</h1>
+       </div>
+       <div>
+       <ul>
+        <h4><li><a href="">What is yoga and its benifits?</a></li></h4>
+        <h4><li><a href="">Who should not do yoga?</a></li></h4>
+        <h4><li><a href="">Does yoga change your life?</a></li></h4>
+        <h4><li><a href="">What happened if i do yoga everyday?</a></li></h4>
+        <h4><li><a href="">Why meditation is so powerful?</a></li></h4>
+        <h4><li><a href="">Can meditation heal your brain?</a></li></h4>
+        <h4><li><a href="">What is yoga and its benifits?</a></li></h4>
+        <h4><li><a href="">What happens to you when you meditate?</a></li></h4>
+       </ul>
+       </div>
+    </div>
+    </div> 
+    </div> 
+    <br><br>
+  
+   
+<!-- DIFFERENT POSES OF YOGA -->
+<div class="know_more1">
+       <h2>KNOW MORE ABOUT DIFFERENT POSES OF YOGA</h2>
+       </div>
+       <br>
+<div id="myDIV">
+    <div class="scrollDiv" style="background-color: #564a4a;">
+        
+        <img src="D:\FA4yogaproject\media\Pada Hastasana.jpg" style="height: 180px;width: 300px;">
+        
+        <div class="text"><h4><a href="">Pada Hastasana</a></h4></div>
+    </div>
+    <div  class="scrollDiv" style="background-color: #deb65d;">
+        <img src="D:\FA4yogaproject\media\ardhaasna.jpg" style="height: 180px;width: 300px;">
+        <div class="text"><h4><a href="#">Ardh Matseyendrasana</a></h4></div>
+    </div>
+    <div class="scrollDiv" style="background-color: #d9d7d6;">
+        <img src="D:\FA4yogaproject\media\trikonaasna.jpg" style="height: 180px;width: 300px;">
+        <div class="text"><h4><a href="">Trikonasana</a></h4></div>
+    </div>
+    <div class="scrollDiv" style="background-color: #f24b4b;">
+        <img src="D:\FA4yogaproject\media\pawanaasna.jpg" style="height: 180px;width: 300px;">
+        <div class="text"><h4><a href="">Pawanmuktasana</a></h4></div>
+    </div>
+    <div class="scrollDiv" style="background-color: #85bf2a;">
+         <img src="D:\FA4yogaproject\media\bhujangasana.jpg" style="height: 180px;width: 300px;">
+        <div class="text"><h4><a href="">Bhujangasana</a></h4></div>
+    </div>
+    <div class="scrollDiv" style="background-color: #a84207;">
+        <img src="D:\FA4yogaproject\media\Shalabasana.jpg" style="height: 180px;width: 300px;">
+        <div class="text"><h4><a href="">Shalabhasana</a></h4></div>
+    </div >
+    <div  class="scrollDiv" style="background-color: #a8a19c;">
+        <img src="D:\FA4yogaproject\media\Tadasana.jpg" style="height: 180px;width: 300px;">
+        <div class="text"><h4><a href="">Tadasana</a></h4></div>
+    </div>
+    
+    <div  class="scrollDiv" style="background-color: #434343;">
+        <img src="D:\FA4yogaproject\media\Vajrasana.jpg" style="height: 180px;width: 300px;">
+        <div class="text"><h4><a href="">Vajrasana</a></h4></div>
+    </div>
+    <div  class="scrollDiv" style="background-color: #776a4d;">
+        <img src="D:\FA4yogaproject\media\Hastasana.jpg" style="height: 180px;width: 300px;">
+        <div class="text"><h4><a href="">Hastasana</a></h4></div>
+    </div>
+    <div  class="scrollDiv" style="background-color: #3e4950;">
+        <img src="D:\FA4yogaproject\media\paschimottanasana.jpeg" style="height: 180px;width: 300px;">
+        <div class="text"><h4><a href="">Paschimottanasana</a></h4></div>
+    </div>
+    <div  class="scrollDiv" style="background-color: #aa8898;">
+        <img src="D:\FA4yogaproject\media\Chakrasana.jpg" style="height: 180px;width: 300px;">
+        <div class="text"><h4><a href="">Chakrasana</a></h4></div>
+    </div>
+    <div  class="scrollDiv" style="background-color: #aa9d80;">
+        <img src="D:\FA4yogaproject\media\Gomukhasana.jpg" style="height: 180px;width: 300px;">
+        <div class="text"><h4><a href="">Gomukhasana</a></h4></div>
+    </div>
+    <script>
+function myFunction() {
+  if (document.forms["myForm"]["myAtt"][0].checked) {
+    document.getElementById("myDIV").style.backgroundAttachment = "fixed";
+  } else {
+    document.getElementById("myDIV").style.backgroundAttachment = "local";
+  }
+}
+</script>
+</div>
+<br><br>
+<!-- CHAT WITH US -->
+<div class="chat">
+    <div class="icon2">
+         <img src="D:\FA4yogaproject\media\yoga-icon.png" style="height: 500px; width: 500px;">
+     </div>
+     <div class="chatting">
+<button class="openChatBtn" onclick="openForm()">Chat</button>
+<div class="openChat">
+<form>
+<h1>HELP BOX</h1>
+<label for="msg"><b>Message</b></label>
+<textarea placeholder="Ask your query . ." name="msg" required></textarea>
+<button type="submit" class="btn">Send</button>
+<button type="button" class="btn close" onclick="closeForm()">
+Close
+</button>
+</form>
+</div>
+<script>
+   document .querySelector(".openChatBtn") .addEventListener("click", openForm);
+   document.querySelector(".close").addEventListener("click", closeForm);
+   function openForm() {
+      document.querySelector(".openChat").style.display = "block";
+   }
+   function closeForm() {
+      document.querySelector(".openChat").style.display = "none";
+   }
+</script>
+
+         
+     </div>
+ </div>
+ <br><br>
+<!-- VIDEO SECTION -->
+<div style="display: flex;justify-content: space-between;">
+<div class="vdo">
+<iframe class="iframe" src="https://www.youtube.com/embed/gNcx8H7pcMg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<!-- <div class="idea_box">Idea box</div> -->
+</div><br><br>
+<div class="vdo">
+    <iframe class="iframe"  src="https://www.youtube.com/embed/zGpqwpF1DXo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+</div>
+<br><br>
+<div class="vdo">
+    <iframe class="iframe"  src="https://www.youtube.com/embed/U9YKY7fdwyg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+</div>
+<br>
+
+
+<br>
+<!-- FOOTER SECTION -->
+<footer id="footer" class="foot">
+        <div class="links">
+        <h3 class="footheading" style="text-align: right; padding-right: 60px;">QUICK LINKS</h3>
+        <div id="links1">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">BLOG</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">ARTICLE</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="news">
+        <h3 class="footheading">NEWS</h3>
+        <div id="news1">
+            <ul>
+                <li>
+Budget 2021: Covid-19 brings back focus on Yoga, industry puts these demands</li>
+                <li>After a 28-Year Ban, Alabama Could Allow Yoga in Public Schools</li>
+                <li>International Yoga day: ITBP practices Yoga on India-China border</li>
+                <li>Shilpa Shetty teaches yoga asanas to contestants on Indian Idol 12</li>
+            </ul>
+        </div>
+    </div>
+    <div class="contact">
+        <h3 class="footheading" style="padding-right: 120px;">CONTACT US</h3>
+        <div id="contact1">
+            <div class="contactimage" id="contactimage1"><a href="#" ><img src="D:\FA4yogaproject\media\twitter.png"></a></div>
+            <div class="contactimage" id="contactimage2"><a href="#"><img src="D:\FA4yogaproject\media\youtube.jfif"></a></div>
+            <div class="contactimage" id="contactimage3"><a href="#"><img src="D:\FA4yogaproject\media\facebbok.png"></a></div>
+            <div class="contactimage" id="contactimage4"><a href="#"><img src="D:\FA4yogaproject\media\instagram.png"></a></div>
+
+        </div>
+    </div>
+</footer>
+</body>  
+</html>   

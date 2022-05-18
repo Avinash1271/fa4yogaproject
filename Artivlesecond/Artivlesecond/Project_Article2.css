@@ -1,0 +1,357 @@
+body{
+  margin:0px 0px 0px;
+  
+  background-image: url(pexels-photo-743986);"
+}
+
+html {
+  scroll-behavior: smooth;
+}
+.navbar{
+
+  margin-top: 0px;
+  height: 400px;
+  width: 100%;
+  background-image: url(kristopher-allison-uT0PkbAM8kg-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  
+}
+#navbar{
+  display: flex;
+  padding:50px 0px 0px 470px;
+
+}
+#navbar li{
+  
+  list-style: none;
+
+
+}
+#navbar a{
+  text-decoration: none;
+  color: #83302c;
+  padding: 0px 20px 0px;
+  letter-spacing: 3px;
+  font-weight: bolder;
+
+}
+#navbar a:hover{
+  color: orange;
+  transition: .6s;
+  border-radius: 30px;
+  
+  text-shadow: 3px 3px 5px white;
+}
+
+#navsearchbar{
+  float: right;
+  height: 50px;
+  margin-top: -20px;
+  margin-right: 50px;
+  display: flex;
+  
+}
+#navsearchbar label{
+  padding: 0px 10px 0px;
+  font-weight:normal;
+  font-size: 20px;
+  font-family: monospace;
+}
+#navsearchbar input{
+  height: 25px;
+  border-style: none;
+  margin-right: 30px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+
+}
+#navsearchbar img{
+  
+  height: 27px;
+  width: 25px;
+  border-top-right-radius:30px;
+  border-bottom-right-radius: 30px;
+}
+#imagediv{
+  height: 25px;
+  width: 25px;
+  margin-left: -30px;
+
+}
+#navbar1{
+
+  height: 45px;
+  width: 35%;
+  display: flex;
+  
+  margin: 5rem 0rem 0rem 35rem;
+}
+#navbar1 a{
+  letter-spacing: .3px;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: sans-serif;
+
+}
+#navbar1 p:hover{
+  background-color:lightgrey;
+
+}
+ #p1{
+  height: 30px;
+  width: 228px;
+  margin: 0px 5px 0px;
+  padding: 14px 0px 0px;
+  text-align: center;
+  background-color: white;
+  border-radius: 4px;
+}
+#p2{
+  height: 30px;
+    width: 125px;
+    margin: 0px 5px 0px;
+    padding: 14px 0px 0px;
+    text-align: center;
+    border:2px solid white;
+    border-radius: 4px;
+    
+}
+#p3 {
+  height: 30px;
+    width: 120px;
+    margin: 0px 5px 0px;
+    padding: 14px 0px 0px;
+    text-align: center;
+    background-color: white;
+  border-radius: 4px;
+}
+#navbar1 a{
+  text-decoration: none;
+  color: brown;
+
+}
+#pagename{
+  height: 45px;
+  font-size: 70px;
+  text-align: center;
+  letter-spacing: 8px;
+  font-weight: normal;
+  color: #5d070757;
+}
+
+
+.headPortion {
+height: 250px;
+width: 100%;
+}
+.headPortion h1{
+	margin-left: 245px;
+	width: 70%;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	border-bottom: 4px double grey;
+	color: brown;
+}
+.headPortion p{
+	width: 65%;
+	margin-top: 40px;
+	margin-left: 280px;
+	text-align: left;
+	font-size: 18px;
+	font-family: monospace;
+}
+#heading2{
+	text-align: center;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+	color: grey;
+}
+section{
+	    width: 72%;
+    margin-left: 210px;
+}
+.thyroid{
+	height: 337px;
+
+}
+	
+.thyroidinner{
+	display: flex;
+}
+.thyroidinner img{
+	height: 240px;
+	width: 400px;
+	margin: 0px 10px 0px;
+}
+.thyroid h2{
+	margin-top: 40px;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: serif;
+	text-decoration: overline;
+	color: green;
+}
+.thyroidabout{
+	height: 200px;
+	width: 590px;
+	padding-right: 10px;
+	border-right: 3px solid cyan;
+}
+.thyroidabout h4{
+	margin-top: 0px;
+	text-align: center;
+	font-size: 25px;
+	color: orange;
+}
+.thyroidabout p{
+	text-align: right;
+	font-size: 17px;
+	color: brown;
+}
+
+.thyroidsymtoms{
+	height: 240px;
+	width: 640px;
+	border-left: 3px solid cyan;
+	padding-left: 10px;
+}
+.thyroidsymtoms h4{
+	margin-top: 0px;
+	text-align: center;
+	font-size: 25px;
+	color: orange;
+}
+.thyroidsymtoms p{
+	text-align: left;
+	font-size: 17px;
+	color: brown;
+}
+.PCOS{
+	height: 337px;
+}
+.PCOSinner{
+	display: flex;
+}
+.PCOS h2{
+	margin-top: 40px;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: serif;
+	text-decoration: overline;
+	color: green;
+}
+.PCOSabout{
+	height: 200px;
+	width: 590px;
+	padding-right: 10px;
+	border-right: 3px solid cyan;
+}
+
+.PCOSabout p{
+	text-align: right;
+	font-size: 17px;
+	color: brown;
+}
+
+.PCOSsymtoms{
+	height: 240px;
+	width: 640px;
+	border-left: 3px solid cyan;
+	padding-left: 10px;
+
+}
+
+.PCOSsymtoms p{
+	text-align: left;
+	font-size: 17px;
+	color: brown;
+}
+
+.PCOSinner img{
+	height: 240px;
+	width: 400px;
+	margin: 0px 10px 0px;
+	
+}
+.foot{
+	height: 300px;
+	width: 100%;
+	display: flex;
+	background-color:#a49e9e;
+}
+.links{
+	height: 300px;
+	width: 33%;
+	
+}
+#links1 li{
+	text-align: left;
+	margin-left:290px;
+	list-style: none;
+	padding: 15px 0px 0px;
+}
+#links1  a{
+	text-decoration: none;
+	color: #564a36;
+}
+#links1  a:hover{
+	color:black;
+}
+.news{
+	height: 300px;
+	width: 34%;
+
+
+	
+}
+#news1{
+	border-left: 2px solid cyan;
+	border-right: 2px solid cyan;
+	height: 173px;
+}
+#news1 li{
+	text-align: left;
+	margin: 0px 20px 0px;
+	font-size: 16px;
+}
+
+.contact{
+	height: 300px;
+	width: 33%;
+	
+}
+#contact1{
+	height: 45px;
+	width: 380px;
+	display: flex;
+	margin: 45px 40px 0px;
+}
+.contactimage{
+	height: 45px;
+	width: 48px;
+	margin: 0px 21px 0px;
+
+}
+.footheading {
+	text-align: center;
+	letter-spacing: 5px;
+	color: grey;
+	text-decoration: overline;
+	text-decoration-color: lightgreen;
+}
+.contactimage img{
+	
+	margin: 0px 0px 0px;
+	background-position: center;
+	height: 45px;
+	width:48px;
+}
+.contactimage img:hover{
+	opacity: .7;
+	border: 1px solid grey;
+	filter: drop-shadow(5px 5px 5px #222);
+}
